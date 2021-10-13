@@ -82,7 +82,7 @@ if (isset($_GET['code'])) { // get linkedin access token
 
 <body>
 
-  <h2>Authentication service and access roles</h2>
+  <h2>eHealth Application</h2>
 
   <div class="container">
     <form>

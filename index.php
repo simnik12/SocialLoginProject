@@ -25,7 +25,7 @@ $loggedinAs = ($_SESSION['userData']['Role_IDrole'] == '1')
 
 <body>
     <div class="container-head">
-        <h2>Authentication service and access roles</h2>
+        <h2>eHealth Application</h2>
         <p>Welcome <?php echo $_SESSION['social_name']; ?> (LoggedIn via <?= $_SESSION['socialType']; ?>)</p>
         <p>You are logged in as a <b><?= $loggedinAs; ?></b> to account <b><?= @$_SESSION['userData']['username']; ?>(<?= @$_SESSION['userData']['email']; ?>)</b></p>
 
